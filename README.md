@@ -17,35 +17,60 @@ Key Words: Humanoid；Biped robots；Arduino；Ultrasonic
 
 //* Name list of the components *\\
 *************************************
-Name |||||||	Quantity
-servo motor holder	*******  6
-servo motor	***************  6
-Foot base *****************  2
-flange bearing*************  6
-short U stent	*************  2
-Long U stent **************  4
-L stent	*******************  4
-metal rudder plate ********  6
-U stent support	***********  1
-Ultrasonic sensor	*********  1
-Arduino Uno R3	***********  1
-Arduino Shield sensor	*****  1
-Arduino base and cover ****  1
-M3*5 screw***************** 56
-M3*8 screw***************** 42
+Name>>>>>>>>>>Quantity
+***********************
+servo motor holder	>>>>>>>  6
+***********************
+servo motor	>>>>>>>>>>>>>>>  6
+***********************
+Foot base >>>>>>>>>>>>>>>>>  2
+***********************
+flange bearing>>>>>>>>>>>>>  6
+***********************
+short U stent	>>>>>>>>>>>>>  2
+***********************
+Long U stent >>>>>>>>>>>>>>  4
+***********************
+L stent	>>>>>>>>>>>>>>>>>>>  4
+***********************
+metal rudder plate >>>>>>>>  6
+***********************
+U stent support	>>>>>>>>>>>> 1
+***********************
+Ultrasonic sensor	>>>>>>>>>  1
+***********************
+Arduino Uno R3	>>>>>>>>>>>  1
+***********************
+Arduino Shield sensor	>>>>>  1
+***********************
+Arduino base and cover >>>>  1
+***********************
+M3*5 screw>>>>>>>>>>>>>>>>> 56
+***********************
+M3*8 screw>>>>>>>>>>>>>>>>> 42
 **************************************************************************************************************************
 //*** The Basic of Biped Robot Specification **\\
-Descriptions*****************	Specification
-Size H X W(cm)***************	32.5 Cm X 15.3cm
-Material	******************* Hard Aluminum alloy
-Motor	***********************     MG996R
-Weight***********************      920g
-No. of DOF ******************      6 DOF
-controller ******************  Arduino Uno R3
-Energy source	*************** Two LC 18650 3800mAh 3.7v
+***************************************************
+Descriptions>>>>>>>>>>>>>>>>>	Specification
+***********************
+Size H X W(cm>>>>>>>>>>>>>>>>	32.5 Cm X 15.3cm
+***********************
+Material	>>>>>>>>>>>>>>>>>>> Hard Aluminum alloy
+***********************
+Motor	>>>>>>>>>>>>>>>>>>>>>>>     MG996R
+***********************
+Weight>>>>>>>>>>>>>>>>>>>>>>>      920g
+***********************
+No. of DOF >>>>>>>>>>>>>>>>>>      6 DOF
+***********************
+controller >>>>>>>>>>>>>>>>>>  Arduino Uno R3
+***********************
+Energy source	>>>>>>>>>>>>>>> Two LC 18650 3800mAh 3.7v
 *******************************************************************************************
 
 BY >>>Bin7ashi<<<<<
+********************
 alisodal1997@gmail.com
+*****************************
 
 
