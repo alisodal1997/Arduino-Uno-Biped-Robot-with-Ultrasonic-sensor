@@ -1,3 +1,5 @@
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
 #include <Servo.h>       //include servo library
 
 //Creating servo objects    
@@ -53,7 +55,7 @@ void lowerCenter()                                                              
 
 
 ////FORWARD////////////////////////////////////////////////////////////////////////
-void Backward()
+void FORWARD()
 {   
   if (firstTime)
   {
@@ -136,64 +138,7 @@ void Backward()
 
 }
 
-void turnLeft()
 
-{
-  for(int i=0 ; i<30 ; i++)
-  {
-   leftAnkle.write(leftAnklePos+i);
-   
-   delay(DelayForTurn);
-   
-  }
-  delay(DelayForTurn2);
-  
-for(int i=0;i<15 ;i++)
-{
-  rightAnkle.write(rightAnklePos+i);
-  delay(DelayForTurn);
-}
-  delay(DelayForTurn2);
-
-  for(int i=0 ;i<30;i++)
-  {
-    leftAnkle.write((leftAnklePos+15)-i);
-    delay(DelayForTurn);
-    rightAnkle.write((rightAnklePos+10)-i);
-    delay(DelayForTurn);
-  }
-  delay(DelayForTurn2);
-  }
-
-  void turnRight()
-{
- for(int i=0; i<30 ;i++)
-{
-rightAnkle.write(rightAnklePos-i);
-rightHip.write(75);
-  delay(DelayForTurn);
-}
-delay(DelayForTurn2);
-
-for(int i=0 ; i<15 ; i++)
-  {
-  leftAnkle.write(leftAnklePos-i);
-  delay(DelayForTurn);
-  
-  }
-  delay(DelayForTurn2);
-
-  for (int i=0; i<30 ;i++)
-
-  {
-    rightAnkle.write((rightAnklePos-15)+i);
-    delay(DelayForTurn);
-    leftAnkle.write((leftAnklePos-10)+i);
-    delay(DelayForTurn);
-    
-  }
-delay(DelayForTurn2);
-}
 
 
 
@@ -220,12 +165,10 @@ void setup()
 
  
  
-//  for (int i = 0; i <3 ; i++)              //Walks forward 3 times
-//  {(turnRight);} 
-//  delay(500);
+
 
   for (int i = 0; i <3 ; i++)              //Walks forward 3 times
-  {(turnLeft);} 
+  {(FORWARD);} 
   delay(500);
 
   
