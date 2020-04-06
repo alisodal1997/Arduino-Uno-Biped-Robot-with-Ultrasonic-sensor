@@ -161,7 +161,7 @@ void setup()
  
 
 
-  for (int i = 0; i <8 ; i++)              //Walks forward 3 times
+  for (int i = 0; i <8 ; i++)              //Backward 8 times
   {(Backward);} 
   delay(500);
 
