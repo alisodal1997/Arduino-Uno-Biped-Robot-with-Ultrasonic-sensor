@@ -60,13 +60,13 @@ void FORWARD()
   if (firstTime)
   {
     for (int i = 0; i < 10 ; i++ )
-    { leftAnkle.write(leftAnklePos+i);   //left foot 
+    { leftAnkle.write(leftAnklePos-i);   //left foot 
       delay(forDelay);}
 
     delay(delayOne);
 
     for (int i = 0; i < 10 ; i++ )
-    {rightAnkle.write(rightAnklePos+i);   //right foot   
+    {rightAnkle.write(rightAnklePos-i);   //right foot   
       delay(forDelay);}
 
     for (int i = 0; i < 10 ; i++ )
@@ -98,8 +98,8 @@ void FORWARD()
 
   for (int i = 0; i <25 ; i++)
   {
-    leftAnkle.write((leftAnklePos +15)-i);   
-    rightAnkle.write((rightAnklePos+15)-i);
+    leftAnkle.write((leftAnklePos -15)+i);   
+    rightAnkle.write((rightAnklePos-15)+i);
     delay(forDelay);
   }
 
@@ -123,8 +123,8 @@ void FORWARD()
 
   for (int i = 0; i <25 ; i++ )
   {
-    rightAnkle.write((rightAnklePos-15)+i);   //right foot
-    leftAnkle.write((leftAnklePos-15)+i);
+    rightAnkle.write((rightAnklePos+15)-i);   //right foot
+    leftAnkle.write((leftAnklePos+15)-i);
 
 //    if (i <= 20)
 //    {leftAnkle.write((leftAnklePos+10)-i);}
