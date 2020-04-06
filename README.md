@@ -4,7 +4,7 @@ This project aim to create Automatic Biped Robot with two legs(six servo motors)
 **************************************************************************************************************************************
 **************************************************************************************************************************************
 **************************************************************************************************************************************
-                                                         **** Abstract****
+                                                         ||Abstract||
 During last few decades automation took a rapid development and proved to be an ebullient platform for innovation. Humanoid robots gain starting their anthropomorphic profile when functional in human-made environments. In direct to achieve humanlike capabilities, robots must be able to recognize, understand and interrelate with the nearby world. Humanoids robots play a vital role in helping the mankind by performing the day today activities. It is easier for biped robots to exist in a human oriented environment than for other types of robots. Furthermore, dynamic walking is more efﬁcient than static walking. For a biped robot achieve dynamic balance while walking, a dynamic gait must be developed. Two different approaches to gait generation are presented an intuitive approach using software for simulating and a periodic approach that provides a scalable gait with parameters for controlling step length, step height and step period.
 ********************************************************************************************************************************
 A two legs biped robot was designed and constructed, to apply the developed gaits and control systems. Several experiments were conducted to examine the stability of the developed gaits. The ability of the control systems to stabilize and balance the robot while stationary and in motion was trailed. To be able to walk stably in various environments, such as on rough terrain, up and down slopes, or in regions containing obstacles, it is necessary for the robot to adapt to the ground conditions with a foot motion, and maintain its stability with a fast motion. When the ground conditions and stability constraint are satisfied, it is desirable to select a walking pattern that requires small torque and velocity of the joint actuators.
@@ -49,7 +49,7 @@ M3*5 screw>>>>>>>>>>>>>>>>>>56
 ***********************
 M3*8 screw>>>>>>>>>>>>>>>>>>42
 **************************************************************************************************************************
-//*** The Basic of Biped Robot Specification **\\
+[The Basic of Biped Robot Specification]
 ***************************************************
 Descriptions>>>>>>>>>>>>>>>>>>>Specification
 ***********************
