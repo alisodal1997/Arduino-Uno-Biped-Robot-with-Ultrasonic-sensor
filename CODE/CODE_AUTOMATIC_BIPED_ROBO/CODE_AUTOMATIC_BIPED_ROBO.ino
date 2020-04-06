@@ -1,5 +1,5 @@
 //***BY Bin7ashi **//
-//FOR Qestion Email me >>>  alisodal1997@gmail.com
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
 #include <NewPing.h>           //FOR the Ultrasonic sensor
 #include <Servo.h>            //FOR the Servo Motors
 
@@ -100,6 +100,8 @@ else
  return distance;
 }
 
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
 
 int readPing() { 
   delay(70);
@@ -145,7 +147,8 @@ void leftAnkleOut2 ()
     delay(forDelay);
     } 
 }
-
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
 
 void rightAnkleOut2()
 {for (int i = 0; i < 10  ; i++ )
@@ -225,7 +228,8 @@ void ankleOutFirst4()
   rightAnkleOut4();
  delay(delayOne);
 }
-
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
 
 
 //////////////////////////LOOP/////////////////////////////////////
@@ -367,7 +371,8 @@ secondTime = false;
 
 
 
-
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
 
 
   
@@ -455,7 +460,9 @@ void Backward()
   delay(delayOne);
 
   ThirdTime = false;
-
+  
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
 
      
  
@@ -581,3 +588,5 @@ void lowerCenter()                                                              
   leftknee.write(leftkneePos);
   rightknee.write(rightkneePos);
 }
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
