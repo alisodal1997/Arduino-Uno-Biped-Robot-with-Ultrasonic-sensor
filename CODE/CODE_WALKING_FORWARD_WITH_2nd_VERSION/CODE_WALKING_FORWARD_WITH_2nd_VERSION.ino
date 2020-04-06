@@ -1,3 +1,5 @@
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
 #include <Servo.h>       //include servo library
 
 #define trigPin A0       //For Ultrasonic sensors if you change the place of the  pin u have to change them as well
@@ -167,7 +169,8 @@ for(int i=0;i<15 ;i++)
   }
   delay(DelayForTurn2);
   }
-
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
   void turnRight()
 {
  for(int i=0; i<30 ;i++)
@@ -247,3 +250,5 @@ void loop()
  
   
   }
+//***BY Bin7ashi **//
+//FOR Question or Help in project Email me >>>  alisodal1997@gmail.com
