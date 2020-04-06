@@ -17,7 +17,7 @@ Key Words: Humanoid；Biped robots；Arduino；Ultrasonic
 
 //* Name list of the components *\\
 *************************************
-Name ********************	Quantity
+Name |||||||	Quantity
 servo motor holder	*******  6
 servo motor	***************  6
 Foot base *****************  2
