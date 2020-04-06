@@ -226,11 +226,11 @@ void setup()
 
  
  
-//  for (int i = 0; i <3 ; i++)              //Walks forward 3 times
-//  {(turnRight);} 
-//  delay(500);
+  for (int i = 0; i <10 ; i++)              //Walks forward 3 times
+  {(FORWARD);} 
+  delay(500);
 
-  for (int i = 0; i <3 ; i++)              //Walks forward 3 times
+  for (int i = 0; i <8 ; i++)              //Walks forward 3 times
   {(turnLeft);} 
   delay(500);
 
